@@ -10,7 +10,7 @@ import { ClienteRoutingModule } from './cliente.routing.module';
 import { ListaTodosComponent } from './lista-todos/lista-todos.component';
 
 @NgModule({
-  declarations: [ListaTodosComponent, CriarComponent, DetalhesComponent, AtualizarComponent],
+  declarations:  [ListaTodosComponent, CriarComponent, DetalhesComponent, AtualizarComponent],
   imports: [
     CommonModule,
     RouterModule,
