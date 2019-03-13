@@ -1,0 +1,18 @@
+<div class="cards">
+
+  <div style="text-align: center">
+    <a [routerLink]="['adicionar']" routerLinkActive="router-link-active" class="btn btn-primary">Adicionar Cliente</a>
+  </div>
+  <div class="card card-stylizado" *ngFor="let cliente of clientes">
+    <div class="card-body">
+      <h5 class="card-title">Nome: {{cliente?.nome}}</h5>
+      <p class="card-text">Idade: {{cliente?.idade}}</p>
+      <p class="card-text">CNPJ/CPF: {{cliente?.cnpjCpf}}</p>
+      <p class="card-text">Tipo Pessoa:{{cliente?.tipoPessoa}}</p>
+      <p class="card-text">Endereço: {{cliente?.endereco}}</p>
+
+      <a [routerLink]="['detalhes',cliente.id]" routerLinkActive="router-link-active"
+        class="btn btn-success">Detalhes</a>
+    </div>
+  </div>
+</div>

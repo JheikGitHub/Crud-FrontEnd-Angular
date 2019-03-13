@@ -1,0 +1,19 @@
+.div-stylizada{
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+nav h1{
+  cursor: pointer;
+}
+
+.container-stylizado{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+
+
+

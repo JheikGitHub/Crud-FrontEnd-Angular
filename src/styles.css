@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+form{
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #3333;
+  border-radius: 5px;
+  width: 500px;
+  margin-left: 25vw;
+}
+
+form h4{
+  text-align: center;
+}
+
+.card-stylizado {
+  width: 90vw;
+  margin: 15px 0 20px 50px;
+}
+
+.cards{
+margin-top: 120px;
+}
